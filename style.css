@@ -41,6 +41,7 @@ body{
     list-style: none;
     padding: 10px;
     background-color: RGB(248, 236, 248);
+    margin: 2.5px;
 }
 .header_list a{
     text-decoration: none;
