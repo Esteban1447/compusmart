@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="/busqueda.png">
+    <title>Servicio Tecnico</title>
+
+</head>
+<body>
+    <header><h1>Servicio Tecnico</h1></header>
+
+    <ul class="header_list" >
+        <li  class="contacto_list"><a href="./index.html" >Inicio</a></li>
+    </ul>
+
+<main class="main_content_contacto">
+    <div class="">
+        <p><h2>Rellena los Campos para agendarte una cita</h2></p>
+        <form action="enviar.php" method="post" class="main_form">
+          <label for="nombre">Nombres:</label>
+          <input type="text" id="nombre" name="nombre" autocomplete="additional-name" required>
+
+          
+          <label for="nombre">Apellidos:</label>
+          <input type="text" id="apellido" name="apellido" autocomplete="family-name" required>
+
+
+          <label for="Telefono">Telefono:</label>
+          <input type="tel" id="Telefono" name="Telefono" autocomplete="tel" required>
+          
+          
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+          
+          
+          <label for="Problema">Si su servicio aparece, favor seleccionarlo:</label><br>
+            <select name="cursos" id="">
+                <option value=""></option>
+                <option value="Lenta">Computadora Lenta</option>
+                <option value="html5">Desactualizacion</option>
+                <option value="css3">Daño</option>
+                <option value="webstanders">Armado de Computador</option>
+            </select><br>
+            <label for="calendario">
+                <span>Seleccione la fecha de su cita</span>
+                <input type="date" id="calendario" name="calendario">
+            </label>
+            <br>
+            <input type="submit">
+
+        </form>
+        <img src="/tecnico.webp" alt="" class="img_contacto">
+    </div>
+    <div class="contacto">
+        Telefono: 3145435657 <br>
+        email: compusmart@gmail.com <br> 
+        Direccion: Calle 13B#8-39
+
+    </div>
+    </main>
+    <footer>
+        © 2024 CompuSmart. Todos los derechos reservados 
+    </footer>
+</body>
+</html>
